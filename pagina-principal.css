@@ -1,0 +1,902 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(./imagenes/wall1080WH2.jpg);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #034b74;
+}
+.cover-navbar{
+    background-color: #fefef6;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.logo img{
+    width: 200px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.secciones-navbar ul{
+    justify-content: center;
+    font-family: 'Martian Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.secciones-navbar li{
+    text-decoration: none;
+}
+
+/* ------- */
+
+
+.cover-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 1000px;
+}
+.titulo img {
+    width: 1000px;
+}
+.titulo h1{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+.titulo h3{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+
+.baner-vinos {
+    display: flex;
+    justify-content: center;
+}
+.baner-vinos img{
+    width: 800px;
+}
+
+/* ---- */
+.cover-cover-edicion{
+    display: flex;
+    justify-content: center;
+}
+.cover-edicion-limitada{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    background: url(./imagenes//wall1080BL2.jpg);
+    width: 1000px;
+    height: 400px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.img-edicion img{
+width: 200px;
+border-radius: 30px;
+}
+
+.p-edicion{
+    border-radius: 30px;
+    padding: 10px;
+    width: 650px;
+    background-color: #fefef6;
+    
+}
+
+.p-edicion p{
+    padding: 10px;
+    font-family: 'Martian Mono', monospace;
+    color: black;
+    
+}
+/* seccion vino */
+.cover-vino{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info-vino{
+    display: flex;
+    flex-direction: row;
+    background: url(./imagenes/wall1080BL2.jpg);
+    width: 1000px;
+    border-radius: 30px;
+    align-items: center;
+}
+.texto-vino{
+    background-color: #fefef6;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    border-radius: 30PX;
+    padding: 30px;
+}
+
+.texto-vino button{
+    border-color: #fefef6;
+    border-radius: 30px;
+    background-color: #034b74;
+    color: #fefef6;
+    height: 43px;
+    width: 100px;
+}
+.vino{
+    display: flex;
+    flex-direction: row;
+}
+.vino img{
+    width: 400px;
+    height: 380px;
+}
+
+.cover-contacto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.wsp-contacto{
+    width: 1000px;
+    background:url(./imagenes/wall1080BL2.jpg);
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto a{
+   text-decoration: none;
+}
+
+.contacto h3{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+    
+}
+
+
+/* bodega info */
+.cover-bodega{
+    display: flex;
+    justify-content: center;
+}
+
+.info-bodega{
+    background: url(./imagenes/wall1080BL2.jpg);
+    width: 1000px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.h2-bodega{
+    display: flex;
+    justify-content: center;
+}
+.h2-bodega h2{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+.bodega{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bodega img{
+width: 430px;
+border-radius: 30px;
+}
+
+.p-bodega{
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p1-bodega{
+    display: flex;
+    align-items: center;
+    font-family: 'Martian Mono', monospace;
+    border-radius: 30px;
+    background-color: #fefef6;
+    width: 300px;
+    padding: 10px;
+}
+.p2-bodega{
+    display: flex;
+    align-items: center;
+    font-family: 'Martian Mono', monospace;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fefef6;
+    width: 300px;
+}
+.p3-bodega{
+    display: flex;
+    align-items: center;
+    font-family: 'Martian Mono', monospace;
+    border-radius: 30px;
+    background-color: #fefef6;
+    width: 300px;
+    padding: 10px;
+}
+
+/* video-recorrido */
+
+.recorrido{
+    display: flex;
+    justify-content: center;
+}
+
+.cover-recorrido{
+    width: 1000px;
+    background-color: #034b74;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.video {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: url(./imagenes/wall1080BL2.jpg);
+}
+.h1-video{
+    display: flex;
+    justify-content: center;
+}
+.h1-video h1{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+/* familia y amigos */
+
+.cover-familia{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.familia-amigos{
+    background-color: #034b74;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.h3-familia{
+    display: flex;
+    justify-content: center;
+}
+.h3-familia h3{
+    color: #fefef6;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+.img-familia{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.img-familia img{
+    border-radius: 30px;
+    width: 250px;
+}
+
+/* musica */
+
+.cover-musica{
+    display: flex;
+    justify-content: center;
+}
+
+.playlist{
+    background-color: #034b74;
+    width: 1000px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.h3-musica{
+    display: flex;
+    justify-content: center;
+}
+
+.h3-musica h3{
+    color: #fefef6;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+.img-musica{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-musica img{
+width: 400px;
+border-radius: 30px;
+}
+
+/* boton wsp */
+
+.container-boton{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 30px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+/* footer */
+footer{
+    padding: 20px;
+    background-color: #034b74;
+    height: 200px;
+}
+.cover-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.logo-footer img{
+width: 200px;
+}
+
+.redes-footer {
+    color: #fefef6;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+.contacto-footer{
+    color: #fefef6;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+
+    /* ........... */
+
+    @media screen and (max-width: 1018px) {
+       .titulo img {
+        width: 800px;
+       }
+    }
+
+    @media screen and (max-width: 900px) {
+        .wsp-contacto {
+         width: 800px;
+        }
+
+        .cover-edicion-limitada img {
+            width: 150px;
+        }
+        .cover-edicion-limitada{
+            width: 800px;
+        }
+
+        .p-edicion {
+            width: 500px;
+        }
+
+        .info-vino img {
+            width: 300px;
+            height: 280px;
+        }
+        .info-vino{
+            width: 800px;
+        }
+       .texto-vino{
+            width: 350px;
+            height: 200px;
+        }
+        .info-bodega{
+            width: 800px;
+        }
+
+        .cover-recorrido{
+            width: 800px;
+        }
+
+        .familia-amigos{
+            width: 800px;
+        }
+
+        .playlist{
+            width: 800px;
+        }
+
+     }
+     
+
+     @media screen and (max-width: 830px) {
+        .wsp-contacto {
+            width: 600px;
+           }
+   
+           .cover-edicion-limitada img {
+               width: 120px;
+           }
+           .cover-edicion-limitada{
+               width: 600px;
+           }
+   
+           .p-edicion {
+               width: 400px;
+               height: 320px;
+           }
+   
+           .info-vino img {
+               width: 250px;
+               height: 280px;
+           }
+           .info-vino{
+               width: 600px;
+           }
+          .texto-vino{
+               width: 320px;
+               height: 200px;
+           }
+           .info-bodega{
+               width: 600px;
+           }
+
+           .info-bodega img{
+            width: 300px;
+           }
+   
+           .cover-recorrido{
+               width: 600px;
+           }
+
+   
+           .familia-amigos{
+               width: 600px;
+           }
+
+           .familia-amigos img{
+            width: 200px;
+           }
+   
+           .playlist{
+               width: 600px;
+           }
+
+           .playlist img {
+            width: 300px;
+           }
+
+        .baner-vinos img {
+            width: 600px;
+        }
+   
+    
+    }
+
+    @media screen and (max-width: 690px) {
+        .wsp-contacto {
+            width: 600px;
+           }
+   
+           .cover-edicion-limitada img {
+               width: 120px;
+           }
+           .cover-edicion-limitada{
+               width: 600px;
+           }
+   
+           .p-edicion {
+               width: 400px;
+               height: 320px;
+           }
+   
+           .info-vino img {
+               width: 250px;
+               height: 280px;
+           }
+           .info-vino{
+               width: 600px;
+           }
+          .texto-vino{
+               width: 320px;
+               height: 200px;
+           }
+           .info-bodega{
+               width: 600px;
+           }
+
+           .info-bodega img{
+            width: 300px;
+           }
+   
+           .cover-recorrido{
+               width: 600px;
+           }
+
+   
+           .familia-amigos{
+               width: 600px;
+           }
+
+           .familia-amigos img{
+            width: 200px;
+           }
+   
+           .playlist{
+               width: 600px;
+           }
+
+           .playlist img {
+            width: 300px;
+           }
+
+        .baner-vinos img {
+            width: 600px;
+        }
+
+        .cover-footer{
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer{
+            height: 500px;
+        }
+   
+    
+    }
+
+    @media screen and (max-width: 648px) {
+        .wsp-contacto {
+            width: 450px;
+           }
+
+           .cover-edicion-limitada{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            width: 400px;
+           }
+   
+           .cover-edicion-limitada img {
+               width: 120px;
+           }
+           .cover-edicion-limitada{
+               width: 600px;
+           }
+   
+           .p-edicion {
+               width: 400px;
+               height: 320px;
+           }
+
+           .info-vino{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            width: 400px;
+           }
+   
+           .info-vino img {
+               width: 250px;
+               height: 280px;
+           }
+           .info-vino{
+               width: 600px;
+           }
+          .texto-vino{
+               width: 320px;
+               height: 200px;
+           }
+           .info-bodega{
+               width: 600px;
+           }
+
+           .info-bodega img{
+            width: 300px;
+           }
+   
+           .cover-recorrido{
+               width: 600px;
+           }
+
+   
+           .familia-amigos{
+               width: 600px;
+           }
+
+           .familia-amigos img{
+            width: 200px;
+           }
+   
+           .playlist{
+               width: 600px;
+           }
+
+           .playlist img {
+            width: 300px;
+           }
+
+        .baner-vinos img {
+            width: 450px;
+        }
+
+        .cover-footer{
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer{
+            height: 500px;
+        }
+   
+    
+    }
+
+
+    @media screen and (max-width: 500px) {
+        .cover-navbar{
+            width: 400px;
+        }
+
+
+
+        .wsp-contacto {
+            width: 400px;
+           }
+
+           .cover-edicion-limitada{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            width: 400px;
+           }
+   
+           .cover-edicion-limitada img {
+               width: 120px;
+           }
+           .cover-edicion-limitada{
+               width: 400px;
+           }
+   
+           .p-edicion {
+               width: 300px;
+               height: 320px;
+           }
+
+           .info-vino{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            width: 400px;
+           }
+   
+           .info-vino img {
+               width: 250px;
+               height: 280px;
+           }
+           .info-vino{
+               width: 400px;
+           }
+          .texto-vino{
+               width: 320px;
+               height: 200px;
+           }
+           .info-bodega{
+               width: 400px;
+           }
+
+           .info-bodega img{
+            width: 300px;
+           }
+   
+           .cover-recorrido{
+               width: 400px;
+           }
+
+   
+           .familia-amigos{
+               width: 400px;
+           }
+
+           .familia-amigos img{
+            width: 200px;
+           }
+   
+           .playlist{
+               width: 400px;
+           }
+
+           .playlist img {
+            width: 300px;
+           }
+
+        .baner-vinos img {
+            width: 400px;
+        }
+
+        .cover-footer{
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer{
+            height: 500px;
+        }
+   
+    
+    }
+
+
+    @media screen and (max-width: 435px) {
+        .cover-navbar{
+            width: 400px;
+        }
+
+
+        .wsp-contacto {
+            width: 350px;
+           }
+
+           .cover-edicion-limitada{
+            display: flex;
+            flex-direction: column;
+            height: 750px;
+            width: 350px;
+           }
+   
+           .cover-edicion-limitada img {
+               width: 120px;
+           }
+           .cover-edicion-limitada{
+               width: 350px;
+           }
+   
+           .p-edicion {
+            width: 300px;
+            height: 450px;
+        }
+
+           .info-vino{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            width: 350px;
+           }
+   
+           .info-vino img {
+               width: 250px;
+               height: 280px;
+           }
+           .info-vino{
+               width: 350px;
+           }
+          .texto-vino{
+               width: 320px;
+               height: 200px;
+           }
+           .info-bodega{
+               width: 350px;
+           }
+
+           .info-bodega img{
+            width: 300px;
+           }
+   
+           .cover-recorrido{
+               width: 350px;
+           }
+
+   
+           .familia-amigos{
+               width: 350px;
+           }
+
+           .familia-amigos img{
+            width: 200px;
+           }
+   
+           .playlist{
+               width: 350px;
+           }
+
+           .playlist img {
+            width: 300px;
+           }
+
+        .baner-vinos img {
+            width: 350px;
+        }
+
+        .cover-footer{
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer{
+            height: 500px;
+        }
+   
+    
+    }
+
+
+
