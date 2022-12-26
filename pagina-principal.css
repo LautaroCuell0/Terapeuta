@@ -420,6 +420,7 @@ footer{
 footer a:visited {
     color: white;
   }
+  
 .cover-footer{
     display: flex;
     flex-direction: row;
