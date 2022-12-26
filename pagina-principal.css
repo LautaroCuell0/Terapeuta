@@ -416,6 +416,10 @@ footer{
     background-color: #034b74;
     height: 200px;
 }
+
+footer a:visited {
+    color: white;
+  }
 .cover-footer{
     display: flex;
     flex-direction: row;
@@ -508,7 +512,7 @@ width: 200px;
    
            .p-edicion {
                width: 400px;
-               height: 320px;
+               height: 280px;
            }
    
            .info-vino img {
