@@ -125,6 +125,7 @@ border-radius: 30px;
 .p-edicion p{
     padding: 10px;
     font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
     color: black;
     
 }
@@ -244,6 +245,7 @@ border-radius: 30px;
     display: flex;
     align-items: center;
     font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
     border-radius: 30px;
     background-color: #fefef6;
     width: 300px;
@@ -253,6 +255,7 @@ border-radius: 30px;
     display: flex;
     align-items: center;
     font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
     padding: 10px;
     border-radius: 30px;
     background-color: #fefef6;
@@ -262,6 +265,7 @@ border-radius: 30px;
     display: flex;
     align-items: center;
     font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
     border-radius: 30px;
     background-color: #fefef6;
     width: 300px;
