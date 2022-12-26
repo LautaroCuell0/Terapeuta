@@ -1,0 +1,266 @@
+.cover-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form{
+    background: url(./imagenes/wall1080BL2.jpg);
+    width: 700px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.h1-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.h1-titulo h1{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+.nombre{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nombre input{
+   border-radius: 30px;
+   height: 30px;
+   width: 230px;
+}
+
+.apellido{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.apellido input{
+    border-radius: 30px;
+    height: 30px;
+    width: 230px;
+ }
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.email input{
+    border-radius: 30px;
+    height: 30px;
+    width: 230px;
+ }
+
+
+ 
+.texarea{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button input{
+    border-radius: 30px;
+    height: 30px;
+    width: 230px;
+    background-color: #034b74;
+    color: #fefef6;
+    border-color: #fefef6;
+}
+
+.button input:hover{
+    background-color: #fefef6;
+    color: #034b74;
+}
+
+/* seccion botones contacto */
+.cover-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    background: url(./imagenes/wall1080BL2.jpg);
+    width: 700px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.h3-button {
+    display: flex;
+    justify-content: center;
+}
+.h3-button h3{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000
+}
+
+.wsp-cover{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+/* iconos button */
+
+.wsp-boton{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    width: 50px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/* icono gmail */
+
+.gmail-boton{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: #cd2900;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    width: 50px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+/* icono instagram */
+
+.ig-boton{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color:#b32354;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    width: 50px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 745px) {
+    .form{
+        width: 500px;
+    }
+    .buttons{
+        width: 500px;
+    }
+    .buttons h3{
+        width: 450px;
+    }
+ }
+
+ @media screen and (max-width: 550px) {
+    .form{
+        width: 400px;
+    }
+    .buttons{
+        width: 400px;
+    }
+    .buttons h3{
+        width: 400px;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    .form{
+        width: 320px;
+    }
+    .buttons{
+        width: 320px;
+    }
+    .buttons h3{
+        width: 320px;
+    }
+ }
+
